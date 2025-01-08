@@ -53,6 +53,10 @@ python Script.py
 This bot uses the Skinport.py API wrapper to interact with the SkinPort marketplace.
 Ensure your bot has the correct permissions to send messages to your server channels.
 
+Checkout SkinPort API documentation:
+```
+https://docs.skinport.com/
+```
 
 ## 🤝 Contributing
 Contributions are welcome! To contribute:
