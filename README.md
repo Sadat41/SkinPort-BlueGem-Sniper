@@ -25,7 +25,7 @@ pip install discord.py
 ```
 
 ---
-🛠️ How to Use
+## 🛠️ How to Use
 #### 1. Clone this repository:
 ```bash
 git clone https://github.com/your-username/SkinPort-BlueGem-Bot.git
@@ -41,20 +41,20 @@ with your Discord bot token.
 ```bash
 python Script.py
 ```
-#### 4. Invite the bot to your Discord server using its client ID.
+4. Invite the bot to your Discord server using its client ID.
 ---
 
-## 🔧 Features
-Fetches live prices of Case Hardened knives from SkinPort.
-Displays prices in a clean and formatted message on Discord.
-Easily customizable for additional skins or price ranges.
+## 🔧 Example Notification
+![SkinPort Bot Example](https://github.com/Sadat41/SkinPort-BlueGem-Bot/blob/main/image.png?raw=true)
+
 ---
 
 ## 📋 Notes
 This bot uses the Skinport.py API wrapper to interact with the SkinPort marketplace.
 Ensure your bot has the correct permissions to send messages to your server channels.
 
-##🤝 Contributing
+
+## 🤝 Contributing
 Contributions are welcome! To contribute:
 
 1. Fork this repository.
