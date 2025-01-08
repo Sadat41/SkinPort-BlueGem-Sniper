@@ -20,8 +20,11 @@ This makes it an essential tool for traders looking for rare patterns such as **
 
 ### Step 2: Install Dependencies
 Run the following command to install the required library:
----
+```bash
+pip install discord.py
+```
 
+---
 🛠️ How to Use
 #### 1. Clone this repository:
 ```bash
