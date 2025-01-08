@@ -5,17 +5,16 @@ from skinport import Client
 from skinport.enums import Currency, AppID, Locale
 
 
-DISCORD_BOT_TOKEN = "Your_Discord_Bot_Token"
+DISCORD_BOT_TOKEN = "Your_Discord_Bot_Token"  # You need to create a discord bot (This won't work with discord webhook)
 
 
 # Users to notify
 USER_IDS_TO_NOTIFY = [
-    373401655988846593,  # User 1 - sadat41
-    286166571741872129,  # User 2 - Akash
-    721708148313817150,  # User 3 - Rimon (smurf)
+    Discord_User_ID_Here,  # User 1 -
+     Discord_User_ID_Here,  # User 2 
 ]
 #Channel ID to notify
-CHANNEL_ID_TO_NOTIFY = 1265903772245168128 
+CHANNEL_ID_TO_NOTIFY = Discord_Channel_ID_Here
 
 
 intents = discord.Intents.default()
