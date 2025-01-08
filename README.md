@@ -71,5 +71,5 @@ git checkout -b feature-name
 ---
 ## Contact:
 ### Email: mdsadat@ualberta.ca
-### discord: sadat41
+### Discord: sadat41
 ---
