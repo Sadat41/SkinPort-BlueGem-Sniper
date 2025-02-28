@@ -1,4 +1,4 @@
-# 🛠️ SkinPort-BlueGem-Bot
+# 🛠️ SkinPort BlueGem Bot
 
 A **Discord bot integration** that actively monitors the SkinPort marketplace for **Case Hardened and Heat Treated knife and weapon finishes**.
 
