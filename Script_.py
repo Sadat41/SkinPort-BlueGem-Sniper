@@ -10,11 +10,11 @@ DISCORD_BOT_TOKEN = "Your_Discord_Bot_Token"  # You need to create a discord bot
 
 # Users to notify
 USER_IDS_TO_NOTIFY = [
-    Discord_User_ID_Here,  # User 1 -
-     Discord_User_ID_Here,  # User 2 
+    Discord_User_ID_Here,  # User 1 
+     Discord_User_ID_Here,  # User 2 ...
 ]
 #Channel ID to notify
-CHANNEL_ID_TO_NOTIFY = Discord_Channel_ID_Here
+CHANNEL_ID_TO_NOTIFY = Discord_Channel_ID_Here 
 
 
 intents = discord.Intents.default()
@@ -23,7 +23,7 @@ intents.members = True  # Required to fetch users
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 
-# Define patterns for all items
+# patterns for all items
 ITEM_PATTERNS = {
     "Desert Eagle | Heat Treated": {
         1: [490, 148, 69, 704, 16, 48, 66, 67, 96, 111, 117, 159, 259, 263, 273, 297, 
@@ -304,19 +304,19 @@ async def on_ready():
             print(f"Checking sale: {market_hash_name}, Pattern: {pattern}")  # Log sale details
 
             if market_hash_name in ITEM_PATTERNS:
-                print(f"Found {market_hash_name} in ITEM_PATTERNS")  # Log if the item is found
+                print(f"Found {market_hash_name} in ITEM_PATTERNS")  
                 for rank, patterns in ITEM_PATTERNS[market_hash_name].items():
                     if pattern in patterns:
-                        print(f"Pattern {pattern} matched for rank {rank}")  # Log pattern match
+                        print(f"Pattern {pattern} matched for rank {rank}")  
                         await send_discord_notification(USER_IDS_TO_NOTIFY, CHANNEL_ID_TO_NOTIFY, sale, rank)
-                        break  # Stop checking further ranks for this item
+                        break  
 
     try:
-        print("Connecting to SkinPort...")  # Log before connecting
+        print("Connecting to SkinPort...")  
         await client.connect(app_id=AppID.csgo, currency=Currency.eur, locale=Locale.en)
-        print("Connected to SkinPort successfully")  # Log successful connection
+        print("Connected to SkinPort successfully")  
     except Exception as e:
-        print(f"Error while connecting to SkinPort: {e}")  # Log any connection errors
+        print(f"Error while connecting to SkinPort: {e}") 
     finally:
         await client.close()
 
@@ -368,7 +368,7 @@ async def send_discord_notification(users, channel_id, item, rank):
 
 
 
-# Run the bot
+
 if __name__ == "__main__":
     bot.run(DISCORD_BOT_TOKEN)
 
