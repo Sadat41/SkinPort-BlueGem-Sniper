@@ -1,4 +1,4 @@
-# 🛠️ SkinPort BlueGem Sniper
+# SkinPort BlueGem Sniper
 
 A **Discord bot integration** that actively monitors the SkinPort marketplace for **Case Hardened and Heat Treated knife and weapon finishes**.
 
@@ -12,7 +12,7 @@ This makes it an essential tool for traders looking for rare patterns such as **
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Step 1: Set Up the Bot
 1. Check out discord.py on how to set up a Discord bot.
