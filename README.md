@@ -10,7 +10,7 @@ This bot connects to the **SkinPort WebSocket** to access the **Sale Feed (Live)
 
 This makes it an essential tool for traders looking for rare patterns such as **Blue Gems**. The project utilizes `discord.py` for seamless Discord integration.
 
-*It's broken at the moment, but it's mostly complete.
+*It's not up to date at the moment. Some features may not work.
 ---
 
 ## Installation
