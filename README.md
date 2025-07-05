@@ -4,7 +4,7 @@ A **Discord bot integration** that actively monitors the SkinPort marketplace fo
 
 ---
 
-## 📚 Overview
+##  Overview
 
 This bot connects to the **SkinPort WebSocket** to access the **Sale Feed (Live)** and actively scans for any listings featuring **Case Hardened** or **Heat Treated finishes**. It evaluates the pattern of these items, and if a match is found, it sends a detailed notification directly to a Discord server. 
 
@@ -26,7 +26,7 @@ pip install discord.py
 ```
 
 ---
-## 🛠️ How to Use
+## 🛠 How to Use
 #### 1. Clone this repository:
 ```bash
 git clone https://github.com/your-username/SkinPort-BlueGem-Bot.git
@@ -45,12 +45,12 @@ python Script.py
 4. Invite the bot to your Discord server using its client ID.
 ---
 
-## 🔧 Example Notification
+##  Example Notification
 ![SkinPort Bot Example](https://github.com/Sadat41/SkinPort-BlueGem-Bot/blob/main/image.png?raw=true)
 
 ---
 
-## 📋 Notes
+##  Notes
 This bot uses the Skinport.py API wrapper to interact with the SkinPort marketplace.
 Ensure your bot has the correct permissions to send messages to your server channels.
 
